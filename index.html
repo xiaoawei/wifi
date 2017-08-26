@@ -7,7 +7,139 @@
 <body>
 <script>
 <!--
-document.write(unescape("%3Chtml%3E%0A%0A%3Chead%3E%0A%3Ctitle%3E%u5C0F%u963F%u5A01%u5F71%u89C6%20V1.0%3C/title%3E%0A%3Cscript%3E%0Avar%20num%3D0%0Afunction%20Clo%28%29%0A%7B%0Adocument.getElementById%28%22video_iframe%22%29.src%20%3D%22%22%3B%0A%7D%0Afunction%20Tip%28%29%0A%7B%0Avar%20index%3D1%0Avar%20obj%20%3D%20document.getElementById%28%22key%22%29%3B%0A%20%20%20index%20%3D%20obj.selectedIndex%3B%0A%20%20%20index++%0Aif%28index%3D%3D1%29%0A%7Bvar%20link%20%3D%20document.getElementById%28%27link%27%29.value%3B%0Adocument.getElementById%28%22video_iframe%22%29.src%20%3D%27https%3A//api.47ks.com/webcloud/%3Fv%3D%27%20+%20link%3B%0Anum%3D0%3B%0A%7D%0A%0Aif%28index%3D%3D2%29%0A%7Bvar%20link%20%3D%20document.getElementById%28%27link%27%29.value%3B%0Adocument.getElementById%28%22video_iframe%22%29.src%20%3D%27http%3A//www.wmxz.wang/video.php%3Furl%3D%27%20+%20link%3B%0Anum%3D0%3B%0A%7D%0A%0Aif%28index%3D%3D3%29%0A%7Bvar%20link%20%3D%20document.getElementById%28%27link%27%29.value%3B%0Adocument.getElementById%28%22video_iframe%22%29.src%20%3D%27http%3A//jx.71ki.com/index.php%3Furl%3D%27%20+%20link%3B%0Anum%3D0%3B%0A%7D%0A%0Aif%28index%3D%3D4%29%0A%7Bvar%20link%20%3D%20document.getElementById%28%27link%27%29.value%3B%0Adocument.getElementById%28%22video_iframe%22%29.src%20%3D%27http%3A//player.gakui.top/%3Furl%3D%27%20+%20link%3B%0Anum%3D0%3B%0A%7D%0A%0Aif%28index%3D%3D5%29%0A%7Bvar%20link%20%3D%20document.getElementById%28%27link%27%29.value%3B%0Adocument.getElementById%28%22video_iframe%22%29.src%20%3D%27http%3A//www.vipjiexi.com/yun.php%3Furl%3D%27%20+%20link%3B%0Anum%3D0%3B%0A%7D%0A%0Aif%28index%3D%3D6%29%0A%7Bvar%20link%20%3D%20document.getElementById%28%27link%27%29.value%3B%0Adocument.getElementById%28%22video_iframe%22%29.src%20%3D%27http%3A//www.sfsft.com/admin.php%3Furl%3D%27%20+%20link%3B%0Anum%3D0%3B%0A%7D%0A%7D%0Afunction%20Keytest%28event%29%0A%7B%0Aif%28event.keyCode%3D%3D13%29%0A%7B%0A%0A%7D%3B%0Aif%28event.keyCode%3D%3D18%29%0A%7B%0Anum%3D1%0A%7D%3B%0Aif%20%28num%3D%3D1%29%0A%7B%0Aif%28event.keyCode%3D%3D49%7Cevent.keyCode%3D%3D97%29%0A%7Bvar%20link%20%3D%20document.getElementById%28%27link%27%29.value%3B%0Adocument.getElementById%28%22video_iframe%22%29.src%20%3D%27https%3A//api.47ks.com/webcloud/%3Fv%3D%27%20+%20link%3B%0Anum%3D0%3B%0A%7D%0A%0Aif%28event.keyCode%3D%3D50%7Cevent.keyCode%3D%3D98%29%0A%7Bvar%20link%20%3D%20document.getElementById%28%27link%27%29.value%3B%0Adocument.getElementById%28%22video_iframe%22%29.src%20%3D%27http%3A//www.wmxz.wang/video.php%3Furl%3D%27%20+%20link%3B%0Anum%3D0%3B%0A%7D%0A%0Aif%28event.keyCode%3D%3D51%7Cevent.keyCode%3D%3D99%29%0A%7Bvar%20link%20%3D%20document.getElementById%28%27link%27%29.value%3B%0Adocument.getElementById%28%22video_iframe%22%29.src%20%3D%27http%3A//jx.71ki.com/index.php%3Furl%3D%27%20+%20link%3B%0Anum%3D0%3B%0A%7D%0A%0Aif%28event.keyCode%3D%3D52%7Cevent.keyCode%3D%3D100%29%0A%7Bvar%20link%20%3D%20document.getElementById%28%27link%27%29.value%3B%0Adocument.getElementById%28%22video_iframe%22%29.src%20%3D%27http%3A//player.gakui.top/%3Furl%3D%27%20+%20link%3B%0Anum%3D0%3B%0A%7D%0A%0Aif%28event.keyCode%3D%3D53%7Cevent.keyCode%3D%3D101%29%0A%7Bvar%20link%20%3D%20document.getElementById%28%27link%27%29.value%3B%0Adocument.getElementById%28%22video_iframe%22%29.src%20%3D%27http%3A//www.vipjiexi.com/yun.php%3Furl%3D%27%20+%20link%3B%0Anum%3D0%3B%0A%7D%0A%0Aif%28event.keyCode%3D%3D54%7Cevent.keyCode%3D%3D102%29%0A%7Bvar%20link%20%3D%20document.getElementById%28%27link%27%29.value%3B%0Adocument.getElementById%28%22video_iframe%22%29.src%20%3D%27http%3A//www.sfsft.com/admin.php%3Furl%3D%27%20+%20link%3B%0Anum%3D0%3B%0A%7D%0A%7D%0A%0A%7D%0A%0A%0A%3C/script%3E%0A%3C/head%3E%0A%0A%3Cbody%20onkeydown%3D%22Keytest%28event%29%22%26%20onkeyup%3D%22keyup%28%29%22%3E%0A%3Cdiv%20style%3D%22overflow%3Ahidden%3B%20margin%3A%200%20auto%3B%20width%3A800px%3Bpadding%3A10px%22%3E%0A%20%20%20%20%3Cinput%20type%3D%22text%22%20%20id%3D%22link%22%20style%3D%22border%3A1px%20solid%20%2300a0e9%3B%20width%3A600px%3B%20line-height%3A30px%3B%20padding%3A6px%3B%20display%3Ablock%3B%20float%3Aleft%3B%22%20/%3E%0A%09%3Cselect%20id%3D%22key%22%20%20name%3D%22position%22%3E%0A%09%09%3Coption%20value%20%3D%221%22%3E%u63A5%u53E31%3C/option%3E%0A%09%09%3Coption%20value%20%3D%222%22%3E%u63A5%u53E32%3C/option%3E%0A%09%09%3Coption%20value%3D%223%22%3E%u63A5%u53E33%3C/option%3E%0A%09%09%3Coption%20value%3D%224%22%3E%u63A5%u53E34%3C/option%3E%0A%09%09%3Coption%20value%3D%225%22%3E%u63A5%u53E35%3C/option%3E%0A%09%09%3Coption%20value%3D%226%22%3E%u63A5%u53E36%3C/option%3E%0A%09%3C/select%3E%0A%20%20%20%20%3Cinput%20type%3D%22submit%22%20style%3D%22width%3A66px%3B%20line-height%3A40px%3B%20background-color%3A%2300a0e9%3B%20border%3A1px%20solid%20%23FFF%3B%20display%3Ablock%3B%20float%3Aright%3B%20color%3A%23fff%3B%22%20value%3D%22%u5173%u95ED%u89C6%u9891%22%20%20onclick%3D%22Clo%28%29%22%20/%3E%0A%20%20%20%20%3Cbutton%20style%3D%22width%3A66px%3B%20line-height%3A40px%3B%20background-color%3A%2300a0e9%3B%20border%3A1px%20solid%20%23FFF%3B%20display%3Ablock%3B%20float%3Aright%3B%20color%3A%23fff%3B%22%20onclick%3D%22Tip%28%29%22%20%3E%u64AD%u653E%3C/button%3E%0A%20%20%20%20%3Cinput%20style%3D%22width%3A800px%3B%20line-height%3A30px%3B%20background-color%3A%2363b3ff%3B%20border%3A5px%20solid%20%23FFF%3B%20display%3Ablock%3B%20float%3Aright%3B%20color%3A%23fff%3B%22%20value%3D%22%20%20%20%20%u5728%u4E0A%u65B9%u8F93%u5165%u89C6%u9891%u5730%u5740%u540E%u6309Alt+%u6570%u5B571-6%u9009%u62E9%u89E3%u6790%u63A5%u53E3%u540E%u5373%u53EF%u89C2%u770B%u3002%20%20%20%20VIP%u89C6%u9891%u652F%u6301%u7231%u5947%u827A%uFF0C%u8292%u679CTV%uFF0C%u4F18%u9177%uFF0C%u817E%u8BAF%uFF0C%u4E50%u89C6%u7B49%22/%3E%0A%3C/div%3E%0A%0A%3Cdiv%20style%3D%22overflow%3Ahidden%3B%20margin%3A%200%20auto%3B%20width%3A800px%3B%22%3E%0A%20%20%20%3Ciframe%20id%3D%22video_iframe%22%20%20style%3D%22height%3A600px%3Bwidth%3A800px%3Bframeborder%3A0%3Bmarginheight%3A0px%3Bmarginwidth%3A0px%3Bbackground%3A%23000000%3Bborder%3A2px%20solid%20%2300a0e9%22%3E%0A%20%20%20%3C/iframe%3E%0A%3C/div%20%3E%0A%3Cdiv%20align%3D%22center%22%3E%0A%09%3Cscript%20language%3D%22javascript%22%20type%3D%22text/javascript%22%20src%3D%22http%3A//js.users.51.la/19103270.js%22%3E%3C/script%3E%0A%3Cnoscript%3E%3Ca%20href%3D%22http%3A//www.51.la/%3F19103270%22%20target%3D%22_blank%22%3E%3Cimg%20alt%3D%22%26%23x6211%3B%26%23x8981%3B%26%23x5566%3B%26%23x514D%3B%26%23x8D39%3B%26%23x7EDF%3B%26%23x8BA1%3B%22%20src%3D%22http%3A//img.users.51.la/19103270.asp%22%20style%3D%22border%3Anone%22%20/%3E%3C/a%3E%3C/noscript%3E%0A%3C/div%3E%0A%3C/body%3E%0A%3C/html%3E"));
+document.write(unescape("<html>
+
+<head>
+<title>小阿威影视 V1.0</title>
+<script>
+var num=0
+function Clo()
+{
+document.getElementById("video_iframe").src ="";
+}
+function Tip()
+{
+var index=1
+var obj = document.getElementById("key");
+   index = obj.selectedIndex;
+   index++
+if(index==1)
+{var link = document.getElementById('link').value;
+document.getElementById("video_iframe").src ='https://api.47ks.com/webcloud/?v=' + link;
+num=0;
+}
+
+if(index==2)
+{var link = document.getElementById('link').value;
+document.getElementById("video_iframe").src ='http://www.wmxz.wang/video.php?url=' + link;
+num=0;
+}
+
+if(index==3)
+{var link = document.getElementById('link').value;
+document.getElementById("video_iframe").src ='http://jx.71ki.com/index.php?url=' + link;
+num=0;
+}
+
+if(index==4)
+{var link = document.getElementById('link').value;
+document.getElementById("video_iframe").src ='http://player.gakui.top/?url=' + link;
+num=0;
+}
+
+if(index==5)
+{var link = document.getElementById('link').value;
+document.getElementById("video_iframe").src ='http://www.vipjiexi.com/yun.php?url=' + link;
+num=0;
+}
+
+if(index==6)
+{var link = document.getElementById('link').value;
+document.getElementById("video_iframe").src ='http://www.sfsft.com/admin.php?url=' + link;
+num=0;
+}
+}
+function Keytest(event)
+{
+if(event.keyCode==13)
+{
+
+};
+if(event.keyCode==18)
+{
+num=1
+};
+if (num==1)
+{
+if(event.keyCode==49|event.keyCode==97)
+{var link = document.getElementById('link').value;
+document.getElementById("video_iframe").src ='http://www.viyun.me/jiexi.php?url=' + link;
+num=0;
+}
+
+if(event.keyCode==50|event.keyCode==98)
+{var link = document.getElementById('link').value;
+document.getElementById("video_iframe").src ='http://www.wmxz.wang/video.php?url=' + link;
+num=0;
+}
+
+if(event.keyCode==51|event.keyCode==99)
+{var link = document.getElementById('link').value;
+document.getElementById("video_iframe").src ='http://jx.71ki.com/index.php?url=' + link;
+num=0;
+}
+
+if(event.keyCode==52|event.keyCode==100)
+{var link = document.getElementById('link').value;
+document.getElementById("video_iframe").src ='http://player.gakui.top/?url=' + link;
+num=0;
+}
+
+if(event.keyCode==53|event.keyCode==101)
+{var link = document.getElementById('link').value;
+document.getElementById("video_iframe").src ='http://www.vipjiexi.com/yun.php?url=' + link;
+num=0;
+}
+
+if(event.keyCode==54|event.keyCode==102)
+{var link = document.getElementById('link').value;
+document.getElementById("video_iframe").src ='http://www.sfsft.com/admin.php?url=' + link;
+num=0;
+}
+}
+
+}
+
+
+</script>
+</head>
+
+<body onkeydown="Keytest(event)"& onkeyup="keyup()">
+<div style="overflow:hidden; margin: 0 auto; width:800px;padding:10px">
+    <input type="text"  id="link" style="border:1px solid #00a0e9; width:600px; line-height:30px; padding:6px; display:block; float:left;" />
+    <select id="key"  name="position">
+        <option value ="1">接口1</option>
+        <option value ="2">接口2</option>
+        <option value="3">接口3</option>
+        <option value="4">接口4</option>
+        <option value="5">接口5</option>
+        <option value="6">接口6</option>
+    </select>
+    <input type="submit" style="width:66px; line-height:40px; background-color:#00a0e9; border:1px solid #FFF; display:block; float:right; color:#fff;" value="关闭视频"  onclick="Clo()" />
+    <button style="width:66px; line-height:40px; background-color:#00a0e9; border:1px solid #FFF; display:block; float:right; color:#fff;" onclick="Tip()" >播放</button>
+    <input style="width:800px; line-height:30px; background-color:#63b3ff; border:5px solid #FFF; display:block; float:right; color:#fff;" value="    在上方输入视频地址后按Alt+数字1-6选择解析接口后即可观看。    VIP视频支持爱奇艺，芒果TV，优酷，腾讯，乐视等"/>
+</div>
+
+<div style="overflow:hidden; margin: 0 auto; width:800px;">
+   <iframe id="video_iframe"  style="height:600px;width:800px;frameborder:0;marginheight:0px;marginwidth:0px;background:#000000;border:2px solid #00a0e9">
+   </iframe>
+</div >
+<div align="center">
+    <script language="javascript" type="text/javascript" src="http://js.users.51.la/19103270.js"></script>
+<noscript><a href="http://www.51.la/?19103270" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/19103270.asp" style="border:none" /></a></noscript>
+</div>
+</body>
+</html>"));
 //-->
 </script>
 
